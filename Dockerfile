@@ -17,4 +17,4 @@ WORKDIR /ansible
 # Creating EntryPoint
 
 ENTRYPOINT ["ansible-playbook"] # running this ansible-playbook command
-CMD ["site.yml"] # this is the default argument for the above command
+CMD ["probe.yml"] # this is the default argument for the above command
